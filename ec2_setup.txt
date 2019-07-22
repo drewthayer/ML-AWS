@@ -1,0 +1,14 @@
+EC-2 setup
+
+ssh: ec2-user@....
+
+1. install conda. Repo: https://repo.continuum.io/archive/index.html
+$ wget wget https://repo.continuum.io/archive/Anaconda3-2019.03-Linux-x86_64.sh
+$ bash <Anaconda.etc.sh>
+
+2. source install
+$ source .bashrc
+(check) $ conda --version, $ python
+(check) $ conda list | less
+
+3. conda install pickle 
